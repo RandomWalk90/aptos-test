@@ -1,0 +1,69 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "short_name": "Pontem Crypto Wallet - Eth, Sol, BTC +",
+  "name": "Pontem Crypto Wallet - Eth, Sol, BTC +",
+  "author": "Pontem Network",
+  "homepage_url": "https://www.pontem.network/",
+  "description": "Web3 | DeFi | NFTs | Aptos, Ethereum, Bitcoin, & Solana",
+  "manifest_version": 3,
+  "icons": {
+    "32": "icon/32.png",
+    "48": "icon/48.png",
+    "96": "icon/96.png",
+    "128": "icon/128.png",
+    "180": "icon/180.png",
+    "256": "icon/256.png"
+  },
+  "action": {
+    "default_title": "Pontem Crypto Wallet",
+    "default_popup": "src/extension-ui/index.html"
+  },
+  "side_panel": {
+    "default_path": "src/extension-ui/index.html"
+  },
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "src/extension-backend/assets/icons/*.png",
+        "src/extension-backend/assets/beta-icons/*.png"
+      ],
+      "use_dynamic_url": false
+    },
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "assets/inpage.js"
+      ],
+      "use_dynamic_url": false
+    }
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "assets/contentScript.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "permissions": [
+    "storage",
+    "alarms",
+    "tabs",
+    "sidePanel"
+  ],
+  "version": "2.6.18"
+}

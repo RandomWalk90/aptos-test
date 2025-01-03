@@ -1,0 +1,7 @@
+aptos_wallets.txt
+.env
+./node_modules/
+.DS_Store
+keys.txt
+example.js
+aptos_wallets*

@@ -1,0 +1,21 @@
+<svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <mask id="b" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="34" height="34">
+    <rect width="34" height="34" rx="8" fill="url(#a)" />
+  </mask>
+  <g mask="url(#b)">
+    <rect width="34" height="34" rx="8" fill="#6E42CA" />
+    <rect width="34" height="34" rx="8" fill="url(#c)" fill-opacity=".4" style="mix-blend-mode:overlay" />
+    <circle opacity=".34" cx="32" cy="34" r="17" fill="#fff" />
+    <circle opacity=".4" cx="11" cy="11" r="4" fill="#fff" />
+  </g>
+  <defs>
+    <radialGradient id="c" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 -20.8958 20.8958 0 17 34)">
+      <stop stop-color="#fff" />
+      <stop offset=".938" stop-color="#fff" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="a" x1="0" y1="34" x2="34" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset=".201" stop-color="#946BEC" />
+      <stop offset="1" stop-color="#8D29C1" />
+    </linearGradient>
+  </defs>
+</svg>

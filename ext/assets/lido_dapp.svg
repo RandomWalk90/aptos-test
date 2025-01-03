@@ -1,0 +1,44 @@
+<svg width="56" height="56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#a)">
+    <rect width="56" height="56" rx="13" fill="url(#b)" />
+    <mask id="c" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="12" y="25" width="32" height="25">
+      <path d="M27.977 32.973 15.501 25.85l-.336.515c-3.83 5.891-2.98 13.597 2.06 18.547 5.936 5.824 15.568 5.824 21.504 0 5.04-4.95 5.892-12.656 2.061-18.547l-.336-.515-12.477 7.123Z" fill="#fff" />
+    </mask>
+    <g mask="url(#c)">
+      <path d="M27.978 49.728c8.4 0 15.21-6.81 15.21-15.21 0-8.4-6.81-15.21-15.21-15.21-8.4 0-15.21 6.81-15.21 15.21 0 8.4 6.81 15.21 15.21 15.21Z" fill="url(#d)" />
+    </g>
+    <path d="m27.978 17.069-10.752 6.137 10.752 6.138 10.752-6.138-10.752-6.137Z" fill="url(#e)" />
+    <path d="m28 18.66-12.499 7.19 12.477 7.123 12.454-7.123L28 18.66Z" fill="url(#f)" />
+    <path d="M27.978 6.72 17.226 23.206l10.752 6.138V6.72Z" fill="url(#g)" />
+    <path d="m27.977 29.344 10.753-6.138L27.977 6.72v22.624Z" fill="url(#h)" />
+  </g>
+  <defs>
+    <radialGradient id="d" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(-90.466 37.268 9.623) scale(20.3117 24.2103)">
+      <stop stop-color="#C5C6AB" />
+      <stop offset="1" stop-color="#7985AB" />
+    </radialGradient>
+    <radialGradient id="e" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(27.978 23.206) scale(.5376)">
+      <stop stop-color="#06F" stop-opacity="0" />
+      <stop offset="1" stop-color="#00C2FF" stop-opacity=".4" />
+    </radialGradient>
+    <radialGradient id="f" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.62738 0 0 .62738 27.967 25.816)">
+      <stop stop-color="#AEE6F9" stop-opacity=".859" />
+      <stop offset="1" stop-color="#C8D6DC" />
+    </radialGradient>
+    <linearGradient id="b" x1="5.5" y1="6" x2="47" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3827B" />
+      <stop offset="1" stop-color="#EAEBA1" />
+    </linearGradient>
+    <linearGradient id="g" x1="22.602" y1="5.6" x2="22.602" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#77D4FF" />
+      <stop offset="1" stop-color="#93D6F2" stop-opacity=".898" />
+    </linearGradient>
+    <linearGradient id="h" x1="33.353" y1="5.6" x2="33.353" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#506AAC" />
+      <stop offset="1" stop-color="#96CFEF" stop-opacity=".82" />
+    </linearGradient>
+    <clipPath id="a">
+      <path fill="#fff" d="M0 0h56v56H0z" />
+    </clipPath>
+  </defs>
+</svg>
