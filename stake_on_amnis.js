@@ -347,8 +347,7 @@ const recipientPK = fileContent
 // recipientPK.forEach(pk => {
   // createSafePalWallet(pk); 
 // })
-  for (let i = 1; i < recipientPK.length; i++) {
-  // for (let i = 0; i < 1; i++) {
+  for (let i = 0; i < recipientPK.length; i++) {
     await createSafePalWallet(recipientPK[i]);
     await new Promise(resolve => setTimeout(resolve, 1000));
 
