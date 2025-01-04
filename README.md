@@ -14,4 +14,7 @@ node create_aptos_wallets.js
 node aptos_batch_transfer.js 有apt账户的私钥（不要带0x开头） 1.3 （如果要质押1个apt，至少要1.3个apt）
 // 质押
 node stake_on_amnis.js
+
+// 链上直接质押
+node stake_on_amnis_chain.js
 ``` 

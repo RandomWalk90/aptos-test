@@ -28,7 +28,7 @@ async function depositEntry(privateKey, amount) {
             sender: account.accountAddress,
             withFeePayer: true,
             data: {
-                function: "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::router::deposit_entry",
+                function: "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::router::deposit_and_stake_entry",
                 functionArguments: [
                     (amount*100000000).toString(), // 传入存款金额
                     account.accountAddress,
